@@ -1,6 +1,8 @@
 # RPPG-Deepfake_Detection
 - RPPG 기술을 이용한 Deep_fake Detect Project
-
+## Code inform
+- RPPG : 얼굴영역 RPPG, 다른피부영역 ROI추출 , 다른 피부영역 ROI기반 RPPG측정 으로 구성됨
+- video : 웹캠을 이용하여 영상(이미지) 추출하여 저장, 이를 이용하여 RPPG를 추출한다.
 ## RPPG
 : 카메라 기반 비접촉식 PPG측정 기술
 - RGB 기반의 카메라를 이용하여 얼굴 영상을 취득
