@@ -13,8 +13,13 @@
 ## 1. Deepfake 영상
 - [faceswap sw](https://github.com/deepfakes/faceswap/blob/master/INSTALL.md)사용
 - [faceswap.exe download](https://faceswap.dev/download/)
-
-
+1. 필요한 lib 설치
+  - ```conda create -n deepfake python=3.8```
+  - ```activake deepfake```
+  - ```pip install -r requirements_nvidia.txt```
+  - ```conda install tk```
+2. faceswap gui 실행
+  - ```python faceswap.py gui```
 ## 2. Deepfake detection
 : RPPG 기술 기반 deep fake 탐지
 - 원리
