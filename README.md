@@ -27,7 +27,9 @@
 2. Train
     1. inputA : origin face
     2. inputB : target face
-3. 
+
+### 참고자료
+- faceswap 사용법 https://sjblog1.tistory.com/34
 ## 2. Deepfake detection
 : RPPG 기술 기반 deep fake 탐지
 - 원리
