@@ -21,12 +21,12 @@
 - faceswap gui 실행
   - ```python faceswap.py gui```
 1. 얼굴 extract : origin, target 두영상에 대해 각각 실행
-  - input : 얼굴을 추출한 영상
-  - output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
+  1. input : 얼굴을 추출한 영상
+  2. output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
 
 2. Train
-  - inputA : origin face
-  - inputB : target face
+  1. inputA : origin face
+  2. inputB : target face
 3. 
 ## 2. Deepfake detection
 : RPPG 기술 기반 deep fake 탐지
