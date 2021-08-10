@@ -10,7 +10,12 @@
 - chrom 기술을 이용한 색차기반 피부색변화를 감지함.
 - 피부색 변화 정도가 매우 미세하기 때문에 신호를 확장시킴. 
 - 단일 심박수 뿐만아니라 연속적인 심박신호를 추출할 수 있음.
-## Deepfake detection
+## 1. Deepfake 영상
+- [faceswap sw](https://github.com/deepfakes/faceswap/blob/master/INSTALL.md)사용
+- [faceswap.exe download](https://faceswap.dev/download/)
+
+
+## 2. Deepfake detection
 : RPPG 기술 기반 deep fake 탐지
 - 원리
   - deep fake를 사용하여 합성된 얼굴 영역의 RPPG와 팔 또는 목 등 다른 피부 영역의 RPPG 신호에는 차이가 존재할 것.
