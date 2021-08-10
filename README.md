@@ -13,13 +13,21 @@
 ## 1. Deepfake 영상
 - [faceswap sw](https://github.com/deepfakes/faceswap/blob/master/INSTALL.md)사용
 - [faceswap.exe download](https://faceswap.dev/download/)
-1. 필요한 lib 설치
+- 필요한 lib 설치
   - ```conda create -n deepfake python=3.8```
   - ```activake deepfake```
   - ```pip install -r requirements_nvidia.txt```
   - ```conda install tk```
-2. faceswap gui 실행
+- faceswap gui 실행
   - ```python faceswap.py gui```
+1. 얼굴 extract : origin, target 두영상에 대해 각각 실행
+- input : 얼굴을 추출한 영상
+- output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
+
+2. Train
+- inputA : origin face
+- inputB : target face
+3. 
 ## 2. Deepfake detection
 : RPPG 기술 기반 deep fake 탐지
 - 원리
