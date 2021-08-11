@@ -24,12 +24,13 @@
     1. input : 얼굴을 추출한 영상
     2. output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
 
-2. Train [https://forum.faceswap.dev/viewtopic.php?f=6&t=146]
+2. Train 
     1. inputA : origin face
     2. inputB : target face
 
 ### 참고자료
-- faceswap 사용법 https://sjblog1.tistory.com/34
+- faceswap 사용법 [https://sjblog1.tistory.com/34]
+- faceswap train [https://forum.faceswap.dev/viewtopic.php?f=6&t=146]
 ## 2. Deepfake detection
 : RPPG 기술 기반 deep fake 탐지
 - 원리
