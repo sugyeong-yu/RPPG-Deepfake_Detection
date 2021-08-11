@@ -24,7 +24,7 @@
     1. input : 얼굴을 추출한 영상
     2. output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
 
-2. Train
+2. Train [https://forum.faceswap.dev/viewtopic.php?f=6&t=146]
     1. inputA : origin face
     2. inputB : target face
 
