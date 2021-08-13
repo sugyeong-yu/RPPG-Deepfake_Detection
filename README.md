@@ -13,12 +13,15 @@
 ## 1. Deepfake 영상
 - [faceswap sw](https://github.com/deepfakes/faceswap/blob/master/INSTALL.md)사용
 - [faceswap.exe download](https://faceswap.dev/download/)
+- faceswap github clone
+  - ``` git clone https://github.com/deepfakes/faceswap ```
 - 필요한 lib 설치
   - ```conda create -n deepfake python=3.8```
   - ```activake deepfake```
   - ```pip install -r requirements_nvidia.txt```
   - ```conda install tk```
 - faceswap gui 실행
+  - 해당 가상환경, faceswap.py가 있는 faceswap github저장소 clone 폴더로 이동
   - ```python faceswap.py gui```
 1. 얼굴 extract : origin, target 두영상에 대해 각각 실행
     1. input : 얼굴을 추출한 영상
@@ -27,7 +30,7 @@
 2. Train 
     1. inputA : origin face
     2. inputB : target face
-
+    3. model path : 학습모델 저장할 경로 설정
 ### 참고자료
 - faceswap 사용법 [https://sjblog1.tistory.com/34]
 - faceswap train [https://forum.faceswap.dev/viewtopic.php?f=6&t=146]
