@@ -4,6 +4,8 @@ image/
 ROI/
 deepfake_video/
 deepfake_video2/
+관련서류/
+그림/
 
-/*.hwp
-/*.mp4
+*.hwp
+*.mp4
