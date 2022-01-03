@@ -24,14 +24,15 @@
   - 해당 가상환경, faceswap.py가 있는 faceswap github저장소 clone 폴더로 이동
   - ```python faceswap.py gui```
 
-### 1. 얼굴 extract : origin, target 두영상에 대해 각각 실행
-    1. input : 얼굴을 추출한 영상
-    2. output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
+### 1. 얼굴 extract
+ origin, target 두 영상에 대해 얼굴 image를 츄츌
+1. input : 얼굴을 추출한 영상
+2. output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
 
 ### 2. Train 
-    1. inputA : origin face
-    2. inputB : target face
-    3. model path : 학습모델 저장할 경로 설정
+1. inputA : origin face
+2. inputB : target face
+3. model path : 학습모델 저장할 경로 설정
 ### 참고자료
 - faceswap 사용법 [https://sjblog1.tistory.com/34]
 - faceswap train [https://forum.faceswap.dev/viewtopic.php?f=6&t=146]
