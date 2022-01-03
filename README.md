@@ -25,7 +25,7 @@
   - ```python faceswap.py gui```
 
 ### 1. 얼굴 extract
- origin, target 두 영상에 대해 얼굴 image를 츄츌
+: origin, target 두 영상에 대해 얼굴 image를 추출
 1. input : 얼굴을 추출한 영상
 2. output : 추출한 얼굴이미지를 저장할 dir(각 영상마다 다른 경로로 설정)
 
