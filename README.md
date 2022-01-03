@@ -17,7 +17,7 @@
   - ``` git clone https://github.com/deepfakes/faceswap ```
 - 필요한 lib 설치
   - ```conda create -n deepfake python=3.8```
-  - ```activake deepfake```
+  - ```activate deepfake```
   - ```pip install -r requirements_nvidia.txt```
   - ```conda install tk```
 - faceswap gui 실행
